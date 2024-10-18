@@ -313,29 +313,43 @@ list-style-type: none; /* Supprime les puces */
 }
 
 
- .element1{
-  border:5px solid #6be2f0 ;
-  display: flex;
+ .element{
+  border:5px solid rgb(128, 128, 128) ;
+  border-radius: 10px 10px 10px 10px;
+ 
+ display: flex;
   gap:10px;
   width: 40%;
-
-
-
 } 
-.element1:hover{
+.element:hover{
      transform: scale(1.1); 
 
 }
+.owner{
+    font-size: medium;
+    color: grey;
+    width: 177px;
+    height:25px;
+}
 .pricee{
-    margin-left: 40px;
+   
+    color: #fff;
+    padding: 5px;
+    border-radius: 40px ;
+    background-color: grey;
+    margin-left: 200px;
 
 }
+.owner-price{
+    margin: 30px;
+   }
 .list_rec ul{
     display:flex;
     gap:10px;
     list-style: none;
+    color: gray;
 }
-.yy {
+.carte_inside {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -385,8 +399,8 @@ list-style-type: none; /* Supprime les puces */
 }
 .footeer{
     display:flex;
-    gap:5px;
-    justify-content: space-between;
+    gap:1px;
+     justify-content: space-between; 
 }
 .Logo{
     margin-bottom: 10px;
@@ -430,7 +444,7 @@ list-style-type: none; /* Supprime les puces */
     text-align: center;
     width:100em;
     height: 5em;
-    color: #6be2f0;
+    color: black;
     margin: auto;
  font-weight: 600;
 
@@ -473,7 +487,9 @@ list-style-type: none; /* Supprime les puces */
     text-align: center;
  }             
  .titre span{
-    color:rgb(30,57, 132);
+    color:blanchedalmond;
+    background-color: #6be2f0;
+
  }          
 .para p {
     margin-top: 30px;
@@ -505,31 +521,91 @@ list-style-type: none; /* Supprime les puces */
     border-radius: 10px; /* Bordure arrondie plus grande pour le message */
 }
 .form button {
-  
+
     width: 40%;
     padding: 10px;
-    background-color: #007bff;
-    color: white;
+    background-color: rgb(47, 237, 221);
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    justify-content: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+    
     
 
 }
 .form .name{
     font-size: 15px;
-    color:rgb(30,57, 132);
+    color:rgb(56, 203, 243);
 }
 
 .form .gmail{
     font-size: 15px;
-    color:rgb(30,57, 132);
+    color:rgb(56, 203, 243);
     text-align: left;
 }
 .form .msg{
     font-size: 15px;
-    color:rgb(30,57, 132);
+    color:rgb(56, 203, 243);
     text-align: left;
+}
+.titre-blog{
+    font-size: 20px; 
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.titre-blog span{
+    color: #6be2f0;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.origine{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+
+   margin-top: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 200px;
+}
+.carte_blog{
+   border:5px solid rgb(128, 128, 128) ; 
+    border-radius: 10px 10px 10px 10px;
+   
+   width: 650px;
+   height: 650px;
+   display: flex;
+    gap:10px;
+  
+  } 
+  
+  .blog_inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.img_blog{
+   width:100%;
+   height:100%;
+   overflow: hidden;
+}
+.img_blog img{
+    width: 100%;
+}
+.text p{
+    font-style: italic;   /* Applique l'italique */
+    font-weight: 300;  
+    font-size: 14px;   /* Utilise une police légère (300 ou 200, selon les polices) */
+
+margin-bottom: 70px;
+width: 620px;
+height: 140;
+}
+.date h4{
+    color:grey;
 }
