@@ -15,9 +15,9 @@ html {
     width: 94%;
     margin: 0 auto;
     background-image: url(../herosection.jpg);
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
-    padding: 5rem;
+    padding: 5rem; 
     border-radius: 4rem;
 
 }
@@ -111,7 +111,7 @@ html {
 list-style-type: none; /* Supprime les puces */
             padding: 0;
             margin: 0;
-            display: flex;
+             display: flex; 
              /* Affiche les éléments en ligne */
         }
         .list ul li:first-child{
@@ -128,7 +128,7 @@ list-style-type: none; /* Supprime les puces */
     height: 10em;
     width: 91em;
 }
-.search .choise{
+ .choise{
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -137,18 +137,18 @@ list-style-type: none; /* Supprime les puces */
 }
 .choise label{
   font-weight: 600;
-  line-height: 3,6em;
-  margin-bottom: 5px;
+   line-height: 3.6em; 
+  margin-bottom: 5px; 
  
 }
 .search-btn {
-    display: inline-block;
-    margin-top: 2em; /* Aligne le bouton avec d'autres éléments si nécessaire */
+     display: inline-block;
+    margin-top: 2em;  
 }
 
 .search-btn button {
     background-color: #8ad2e4; /* Couleur de fond */
-    color: white; /* Couleur du texte */
+    color: white; 
     border: none; /* Supprime la bordure par défaut */
     padding: 10px 15px; /* Espacement interne */
     border-radius: 10px; /* Coins arrondis */
@@ -167,25 +167,27 @@ list-style-type: none; /* Supprime les puces */
 }
 
 
-.ville{
+ .ville{
   height: 100vh;
   
-}
+} 
 .ville h2{
     font-size: 3rem;
-   text-align: center;
-    margin: 2em;
+    text-align: center; 
+    margin: 2em; 
+    
     
   }
   
   .america{
-    position: relative; /* Position relative pour le conteneur */
-    width: 300px; /* Largeur de l'image */
-    height: 300px; /* Hauteur de l'image */
+  position: relative;  
+    width: 300px; 
+    height: 300px; 
+
    
   }
 .america img{
-    width: 95%;
+    width: 100%;
     height: 70vh;
     cursor: pointer;
     
@@ -195,13 +197,13 @@ list-style-type: none; /* Supprime les puces */
  .america p{
     font-weight: 900;
     font-size: 3em;
-    position: absolute; /* Positionnement absolu pour le texte */
+     position: absolute; 
     top:20%; /* Centre verticalement */
     left: 50%; /* Centre horizontalement */
-    transform: translate(-50% , -50%); /* Ajuste le centrage */
+    transform: translate(-50% , -50%); 
     color: rgb(14, 12, 12); /* Couleur du texte */
    
-    padding: 10px; /* Espace autour du texte */
+  padding: 10px;  
     
     text-align: center;
 
@@ -294,22 +296,23 @@ list-style-type: none; /* Supprime les puces */
     gap: 0,5px;
     padding: 2em;
 }
-
+ 
+/* CARTE CSS */
 
 .haed-recenctly{
   width: 80%;
  
   display: flex;
   justify-content:space-between;
-  margin: auto;
+   margin: auto; 
 }
 .main{
     display: flex;
-    justify-content: space-evenly;
+     justify-content: space-evenly; 
     gap: 20px;
 
    margin-top: 10px;
-  flex-wrap: wrap;
+   flex-wrap: wrap; 
   margin-bottom: 200px;
 }
 
@@ -320,10 +323,11 @@ list-style-type: none; /* Supprime les puces */
  
  display: flex;
   gap:10px;
-  width: 40%;
+ width: 40%; 
+  /* width: 50%; */
 } 
 .element:hover{
-     transform: scale(1.1); 
+     transform: scale(1.1);  
 
 }
 .owner{
@@ -338,12 +342,12 @@ list-style-type: none; /* Supprime les puces */
     padding: 5px;
     border-radius: 40px ;
     background-color: grey;
-    margin-left: 200px;
+    /* margin-left: 200px; */
 
 }
-.owner-price{
+  .owner-price{
     margin: 30px;
-   }
+    }   
 .list_rec ul{
     display:flex;
     gap:10px;
@@ -353,43 +357,49 @@ list-style-type: none; /* Supprime les puces */
 .carte_inside {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+  justify-content: space-between;  
+ justify-content: space-evenly;
 }
+/* IMAGES CSS */
 .banner2{
     margin-top: 30px;
     margin-bottom: 100px;
     width:80%;
     height: 400px;
     background-image: url(footer22.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+   /* background-repeat: no-repeat;  */
+    /* background-size: cover; */
     margin: auto;
     padding: 5rem;
    
+
+
 }
 .find h1{
     font-size: 5rem;
-    padding-bottom: 2rem;
+     padding-bottom: 3rem; 
 
    }
    .find p{
        font-size: 1.5rem;
        padding-bottom: 6rem;
-       text-align: start;
+       /* text-align: start; */
        color: grey;
-       width: 40%;
+       /* width: 100%; */
     }
 .button input{
     background-color:dodgerblue;
   
-     border-radius: 10px;
-     width: 150px;
-    padding: 10px ;
+     border-radius: 10px; 
+     width: 150px; 
+    padding: 10px ; 
     text-align: center;
 }
 .button input:hover{
     background-color:dodgerblue;
 }
+                            /* FOOTEER */
+
 .footeer{
     margin-top: 80px;
 }
@@ -411,16 +421,20 @@ list-style-type: none; /* Supprime les puces */
 }
 .social-media{
     margin-bottom: 50px;
+   
 }
 
+
 .foot1 i {
-    font-size:x-large;
+     font-size:x-large; 
+    
+    
 }
 .foot2 li {
     margin-top: 20px;
       line-height: 20px;
      list-style: none;
-     font-family: 'poppins';
+    font-family: 'poppins'; 
 }
 .foot3 li {
     margin-top: 20px;
@@ -431,13 +445,13 @@ list-style-type: none; /* Supprime les puces */
 .foot4 p {
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 .emaail input {
     border: 1px solid gray;
     border-radius: 10px;
     padding: 5px 10px ;
-    height: 50px;
+    height: 50px; 
 }
                     /* PROPRITES CSS */
 
@@ -451,11 +465,13 @@ list-style-type: none; /* Supprime les puces */
 
 }
 .image-style {
-    width: calc(100% - 40px); /* Largeur de l'image, moins les marges */
-    margin: 0 20px; /* Marge de 20px à droite et à gauche */
+    width: calc(100% - 180px); 
+    height:800px;
+   
+    margin: 0 auto; /* Marge de 20px à droite et à gauche */
     border-radius: 15px; /* Bordure arrondie */
-    display: block;
-    height: 800px;
+    display: block; 
+   
     object-fit: cover;
 }
 .texte {
@@ -497,7 +513,7 @@ list-style-type: none; /* Supprime les puces */
     font-size: 20px; 
     font-weight: normal;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-bottom: 50px;
 }
 .form {
@@ -518,7 +534,7 @@ list-style-type: none; /* Supprime les puces */
     font-size: 16px;
 }
 .form textarea {
-    height: 150px; /* Hauteur du champ de message */
+    height: 150px;  
     border-radius: 10px; /* Bordure arrondie plus grande pour le message */
 }
 .form button {
@@ -546,13 +562,16 @@ list-style-type: none; /* Supprime les puces */
 .form .gmail{
     font-size: 15px;
     color:rgb(56, 203, 243);
-    text-align: left;
+     text-align: left; 
 }
 .form .msg{
     font-size: 15px;
     color:rgb(56, 203, 243);
     text-align: left;
 }
+                            
+                                   /* blog css */
+
 .titre-blog{
     font-size: 20px; 
     font-weight: bold;
@@ -565,22 +584,23 @@ list-style-type: none; /* Supprime les puces */
     margin-left: 5px;
 }
 .origine{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
-
-   margin-top: 10px;
-  flex-wrap: wrap;
-  margin-bottom: 200px;
+    display: grid;
+   grid-template-columns: repeat(2, auto);
+   grid-template-rows: repeat(2, auto);
+   justify-content: space-evenly;
+  margin-top: 10px;
+   margin-bottom: 200px;
+   row-gap: 20px;
 }
 .carte_blog{
    border:5px solid rgb(128, 128, 128) ; 
     border-radius: 10px 10px 10px 10px;
    
-   width: 650px;
-   height: 650px;
+   width: 500px;
+   height: 500px;
    display: flex;
-    gap:10px;
+    gap:10px; 
+    
   
   } 
   
@@ -604,8 +624,7 @@ list-style-type: none; /* Supprime les puces */
     font-size: 14px;   /* Utilise une police légère (300 ou 200, selon les polices) */
 
 margin-bottom: 70px;
-width: 620px;
-height: 140;
+
 }
 .date h4{
     color:grey;
